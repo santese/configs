@@ -5,14 +5,13 @@ on:
     branches:
       - main
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
-
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     permissions: 
       contents: write
+      pull-requests: write
     steps:
       - name: 🛒 Checkout repo
         uses: actions/checkout@v4
@@ -35,7 +34,6 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
