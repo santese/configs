@@ -2,14 +2,15 @@
   "name": "@santese/biome-config",
   "description": "Shareable Biome configuration",
   "version": "1.0.0",
-  "private": false,
   "author": "@santese",
   "license": "MIT",
   "main": "biome.jsonc",
   "exports": {
     ".": "./biome.jsonc"
   },
-  "files": ["biome.jsonc"],
+  "files": [
+    "biome.jsonc"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/santese/configs",
