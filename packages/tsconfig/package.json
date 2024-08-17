@@ -1,7 +1,7 @@
 {
   "name": "@santese/tsconfig",
   "description": "Shared tsconfigs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "author": "@santese",
   "license": "MIT",
@@ -20,7 +20,11 @@
       "require": "./lib.json"
     }
   },
-  "files": ["base.json", "bun.json", "lib.json"],
+  "files": [
+    "base.json",
+    "bun.json",
+    "lib.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/santese/configs",
