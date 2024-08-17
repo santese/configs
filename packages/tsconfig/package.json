@@ -20,11 +20,7 @@
       "require": "./lib.json"
     }
   },
-  "files": [
-    "base.json",
-    "bun.json",
-    "lib.json"
-  ],
+  "files": ["base.json", "bun.json", "lib.json"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/santese/configs",
@@ -32,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/github.com/santese/configs/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
