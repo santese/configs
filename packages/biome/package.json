@@ -15,7 +15,7 @@
     "directory": "packages/biome"
   },
   "bugs": {
-    "url": "https://github.com/github.com/santese/configs/issues"
+    "url": "https://github.com/santese/configs/issues"
   },
   "publishConfig": {
     "access": "public"
