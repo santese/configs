@@ -1,0 +1,32 @@
+{
+  "name": "@santese/tsconfig",
+  "description": "Shared tsconfigs",
+  "version": "0.0.0",
+  "private": false,
+  "author": "@santese",
+  "license": "MIT",
+  "main": "base.json",
+  "exports": {
+    ".": {
+      "import": "./base.json",
+      "require": "./base.json"
+    },
+    "./bun": {
+      "import": "./bun.json",
+      "require": "./bun.json"
+    },
+    "./lib": {
+      "import": "./lib.json",
+      "require": "./lib.json"
+    }
+  },
+  "files": ["base.json", "bun.json", "lib.json"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santese/configs",
+    "directory": "packages/tsconfig"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/santese/configs/issues"
+  }
+}
