@@ -8,9 +8,7 @@
   "exports": {
     ".": "./biome.jsonc"
   },
-  "files": [
-    "biome.jsonc"
-  ],
+  "files": ["biome.jsonc"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/santese/configs",

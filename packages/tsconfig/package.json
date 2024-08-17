@@ -19,11 +19,7 @@
       "require": "./lib.json"
     }
   },
-  "files": [
-    "base.json",
-    "bun.json",
-    "lib.json"
-  ],
+  "files": ["base.json", "bun.json", "lib.json"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/santese/configs",
