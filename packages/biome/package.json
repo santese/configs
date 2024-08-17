@@ -2,7 +2,7 @@
   "name": "@santese/biome-config",
   "description": "Shareable Biome configuration",
   "version": "1.0.0",
-  "author": "@santese",
+  "author": "Santese",
   "license": "MIT",
   "main": "biome.jsonc",
   "exports": {
@@ -17,7 +17,11 @@
   "bugs": {
     "url": "https://github.com/santese/configs/issues"
   },
+  "homepage": "https://github.com/santese/configs#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^1.8.3"
   }
 }
